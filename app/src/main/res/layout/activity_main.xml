@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/tema"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/ltResultado"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="20dp"
+        android:text="Oifajehfaujegf" />
+
+    <TextView
+        android:id="@+id/ltExpressao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Oifajehfaujegf" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botaoapagar"
+            style="@style/botao"
+            android:layout_width="0dp"
+            android:layout_height="391dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0.25"
+            android:text="C"
+            android:textSize='60sp'
+            app:autoSizeTextType="none"
+            app:fontFamily="serif-monospace" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
